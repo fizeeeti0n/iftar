@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Iftar Mahfil 2026 | UAP CSE</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <div class="nav-logo">Iftar <span>Mahfil</span></div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#schedule">Schedule</a></li>
+    <li><a href="#organizers">Organizers</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+  </ul>
+  <div class="hamburger" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" onclick="toggleMenu()">About</a>
+  <a href="#schedule" onclick="toggleMenu()">Schedule</a>
+  <a href="#organizers" onclick="toggleMenu()">Organizers</a>
+  <a href="#gallery" onclick="toggleMenu()">Gallery</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="lantern lantern-1">🪔</div>
+  <div class="lantern lantern-2">🪔</div>
+  <div class="lantern lantern-3">🪔</div>
+  <div class="lantern lantern-4">🪔</div>
+
+  <div class="hero-content">
+    <div class="bismillah">﷽</div>
+    <div class="hero-badge">Ramadan 2026 &nbsp;·&nbsp; UAP CSE</div>
+    <h1 class="hero-title">Iftar<span>Mahfil 2026</span></h1>
+    <p class="hero-sub">An evening of unity, du'a, and togetherness</p>
+
+    <div class="hero-info">
+      <div class="hero-info-item">
+        <i class="fas fa-calendar-alt"></i>
+        <span>2nd March, 2026</span>
+      </div>
+      <div class="hero-divider"></div>
+      <div class="hero-info-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>UAP Plaza</span>
+      </div>
+    </div>
+
+    <div class="countdown" id="countdown">
+      <div class="count-box"><span class="count-num" id="cd-days">00</span><div class="count-label">Days</div></div>
+      <div class="count-box"><span class="count-num" id="cd-hrs">00</span><div class="count-label">Hours</div></div>
+      <div class="count-box"><span class="count-num" id="cd-min">00</span><div class="count-label">Minutes</div></div>
+      <div class="count-box"><span class="count-num" id="cd-sec">00</span><div class="count-label">Seconds</div></div>
+    </div>
+
+    <div class="hero-btns">
+      <a href="#about" class="btn-outline"><i class="fas fa-info-circle"></i> View Details</a>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="section-inner">
+    <div class="about-grid">
+      <div class="about-text reveal">
+        <div class="section-label">About the Event</div>
+        <h2 class="section-title">A Sacred Evening of <em>Togetherness</em></h2>
+        <div class="divider"></div>
+        <p>As the blessed month of <strong>Ramadan</strong> graces us once more, the Department of Computer Science & Engineering at UAP invites all students, alumni, and faculty to gather in the spirit of community, gratitude, and shared blessings.</p>
+        <p>The <strong>Iftar Mahfil 2026</strong> is more than a meal — it is a celebration of bonds forged in knowledge and faith. We break our fast together, reflect on our journey, and strengthen the ties that make our community extraordinary.</p>
+        <p>Join us at <strong>UAP Plaza</strong> for an evening of Quran recitation, heartfelt du'a, joyous networking, and a delicious Iftar feast as the sun sets on the horizon.</p>
+      </div>
+      <div class="cards reveal">
+        <div class="card">
+          <div class="card-icon"><i class="fas fa-mosque"></i></div>
+          <div class="card-body">
+            <h3>Spiritual Gathering</h3>
+            <p>Begin the evening with Quran recitation and communal du'a, nurturing the soul and lifting hearts together.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i class="fas fa-users"></i></div>
+          <div class="card-body">
+            <h3>Community Networking</h3>
+            <p>Connect with students, alumni, and faculty in a warm and welcoming atmosphere that celebrates unity.</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-icon"><i class="fas fa-utensils"></i></div>
+          <div class="card-body">
+            <h3>Delicious Iftar Dinner</h3>
+            <p>Enjoy a beautifully curated Iftar spread, bringing the joy of breaking fast with loved ones and colleagues.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SCHEDULE -->
+<section id="schedule">
+  <div class="section-inner">
+    <div style="text-align:center; margin-bottom: 3rem;" class="reveal">
+      <div class="section-label">Program Flow</div>
+      <h2 class="section-title" style="color:var(--gold-light)">Evening <em>Schedule</em></h2>
+      <div class="divider center"></div>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-time">4:30 PM</div>
+        <div class="timeline-title">Welcome</div>
+        <div class="timeline-desc">Guests arrive at UAP Plaza. Warm welcome by the organizing team with refreshments.</div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-time">5:00 PM</div>
+        <div class="timeline-title">Quran Recitation</div>
+        <div class="timeline-desc">A beautiful tilawat of the Holy Quran to set the spiritual tone for the evening, filling hearts with peace.</div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-time">5:20 PM</div>
+        <div class="timeline-title">Short Speech & Du'a</div>
+        <div class="timeline-desc">Inspiring words by faculty and student representatives, followed by a collective du'a for blessings and unity.</div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-time">5:35 PM</div>
+        <div class="timeline-title">Iftar Distribution</div>
+        <div class="timeline-desc">At Maghrib, the fast is broken together — dates, water, and an abundant spread shared with gratitude.</div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-time">6:03 PM</div>
+        <div class="timeline-title">Maghrib Prayer</div>
+        <div class="timeline-desc">Congregation gathers for Maghrib salah, a moment of reflection and devotion as one community.</div>
+      </div>
+      <div class="timeline-item reveal">
+        <div class="timeline-dot"></div>
+        <div class="timeline-time">7:00 PM</div>
+        <div class="timeline-title">Networking</div>
+        <div class="timeline-desc">A wonderful evening of reconnecting — students, alumni, and faculty sharing stories over a warm dinner.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ORGANIZERS -->
+<section id="organizers">
+  <div class="section-inner">
+    <div style="text-align:center; margin-bottom: 3rem;" class="reveal">
+      <div class="section-label">Organized By</div>
+      <h2 class="section-title">Meet the <em>Organizers</em></h2>
+      <div class="divider center"></div>
+    </div>
+    <div class="org-grid">
+      <div class="org-card reveal">
+        <img src="photo/Uap iftar mahfil Final.png"" alt="ORGANIZERS">
+      </div>
+      
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="section-inner">
+    <div style="text-align:center; margin-bottom: 3rem;" class="reveal">
+      <div class="section-label">Memories</div>
+      <h2 class="section-title">Photo <em>Gallery</em></h2>
+      <div class="divider center"></div>
+      <p style="color:var(--text-mid); font-size:.9rem; max-width:500px; margin:0 auto;">Relive the warmth of past gatherings. Photos from the event will be shared here.</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item reveal">
+        <div class="gallery-placeholder">
+         <img src="photo/1.jpg"" alt="Iftar Gathering">
+        </div>
+        
+      </div>
+      <div class="gallery-item reveal">
+        <div class="gallery-placeholder" style="background: linear-gradient(135deg, #3a0a15 0%, #6b1a2a 50%, #8b2336 100%);">
+        <img src="photo/2.jpg"" alt="Iftar Gathering">
+        </div>
+        
+      </div>
+      <div class="gallery-item reveal">
+        <div class="gallery-placeholder" style="background: linear-gradient(135deg, #4a0f1c 0%, #9b3346 50%, #c9a84c 100%);">
+        <img src="photo/3.jpg"" alt="Iftar Gathering">
+         
+        </div>
+        
+      </div>
+      <div class="gallery-item reveal">
+        <div class="gallery-placeholder" style="background: linear-gradient(135deg, #1a0a05 0%, #4a2010 50%, #8a5030 100%);">
+          <img src="photo/4.jpg"" alt="Iftar Gathering">
+        </div>
+       </div>
+        <div class="gallery-item reveal">
+        <div class="gallery-placeholder" style="background: linear-gradient(135deg, #1a0a05 0%, #4a2010 50%, #8a5030 100%);">
+          <img src="photo/5.jpg"" alt="Iftar Gathering">
+        </div>
+       </div>
+       <div class="gallery-item reveal">
+        <div class="gallery-placeholder" style="background: linear-gradient(135deg, #1a0a05 0%, #4a2010 50%, #8a5030 100%);">
+          <img src="photo/6.jpg"" alt="Iftar Gathering">
+        </div>
+       </div>
+  </div>
+</section>
+
+
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <span class="nav-logo">Iftar <span>Mahfil</span></span>
+      <p>An annual celebration of faith, community, and togetherness hosted by the CSE Department of the University of Asia Pacific.</p>
+      <div class="social-links" style="margin-top:1.5rem;">
+        <a href="https://www.facebook.com/share/14XwTdY41eK/" target="_blank" ><i class="fab fa-facebook-f"></i></a>
+      </div>
+    </div>
+ 
+    <div>
+      <h4>Event Details</h4>
+      <div style="font-size:.875rem; display:flex; flex-direction:column; gap:.6rem;">
+        <span><i class="fas fa-calendar-alt" style="color:var(--gold); margin-right:.5rem;"></i>2nd March, 2026</span>
+        <span><i class="fas fa-clock" style="color:var(--gold); margin-right:.5rem;"></i>5:00 PM Onwards</span>
+        <span><i class="fas fa-map-marker-alt" style="color:var(--gold); margin-right:.5rem;"></i>UAP Plaza, Dhaka</span>
+        <span><i class="fas fa-envelope" style="color:var(--gold); margin-right:.5rem;"></i>cse@uap-bd.edu</span>
+      </div>
+    </div>
+    <div>
+      <h4>Location</h4>
+      <div class="map-placeholder">
+        <i class="fas fa-map-marked-alt"></i>
+        UAP Plaza, Green Road<br>Dhaka, Bangladesh
+        <div style="margin-top:.8rem;">
+          <a href="https://maps.app.goo.gl/wpLv2unnT4uz5exZ7" target="_blank" style="color:var(--gold); font-size:.8rem; text-decoration:none;">
+            <i class="fas fa-external-link-alt"></i> Open in Maps
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+ <div class="footer-bottom">
+  <span>© 2026 Iftar Mahfil · UAP CSE Department. All rights reserved.</span>
+  <span class="made-with">
+    Made with <span class="heart">♥</span> by 
+    <a href="https://fizeeeti0n.vercel.app" target="_blank" rel="noopener noreferrer">
+      fizeeeti0n
+    </a>
+  </span>
+</div>
+</footer>
+
+<script src="script.js"></script> 
+</body>
+</html>
