@@ -1,6 +1,6 @@
   // ── COUNTDOWN ──
   function updateCountdown() {
-    const event = new Date('2026-03-02T17:00:00+06:00').getTime();
+    const event = new Date('2026-03-02T16:30:00+06:00').getTime();
     const now = Date.now();
     const diff = event - now;
     if (diff <= 0) {
@@ -86,4 +86,5 @@
     if (menu.classList.contains('open') && !menu.contains(e.target) && !e.target.closest('.hamburger')) {
       menu.classList.remove('open');
     }
+
   });
